@@ -8,8 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "dotenv": "^4.0.0",
     "moment": "^2.18.1",
