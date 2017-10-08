@@ -31,6 +31,7 @@ const login = async (page, credentials) => {
 
 	await page.click('input[name="frmentermemorableinformation1:btnContinue"]');
 	await page.waitForSelector('.m-hf-02-logged-in');
+	console.log('LOGGED IN');
 	};
 
 	module.exports = login;

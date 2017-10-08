@@ -7,6 +7,7 @@ class AccountOverview extends Page {
 
 	async launch() {
 		await this.page.goto('https://secure.bankofscotland.co.uk/personal/a/account_overview_personal', {waitUntil: 'networkidle'});
+		console.log('ACCOUNT OVERVIEW LAUNCHED');
 		return;
 	}
 
