@@ -1,6 +1,6 @@
 {
   "name": "mii-bos-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scrape bos accounts and transactions",
   "main": "./src/index.js",
   "scripts": {
