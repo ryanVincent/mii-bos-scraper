@@ -37,7 +37,7 @@ class BosScraper {
 	}
 
 
-	async getTransactions (accountId, from, to) {
+	async getTransactions(accountId, from, to) {
 		await this.pages.AccountDetails.launch(accountId);
 		await this.pages.AccountDetails.search(from, to);
 		return await this.pages.AccountDetails.transactions();
